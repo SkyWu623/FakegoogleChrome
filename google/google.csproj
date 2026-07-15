@@ -7,6 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>ChromeLogo.ico</ApplicationIcon>
+    <AssemblyName>FakegoogleChrome</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
