@@ -111,7 +111,7 @@ namespace google
 
             string query = btnSearch.Text;
 
-            string path = @"C:\SearchTest";
+            string path = Path.Combine(Application.StartupPath, "SearchTest");
 
             string answer = "";
 
@@ -263,7 +263,7 @@ namespace google
 
 
 
-            Process.Start("C:\\Users\\Surface\\Desktop\\胡維基的AI4.0\\胡維基的AI3.0\\bin\\Debug\\胡維基的AI3.0.exe");
+            Process.Start(Path.Combine(Application.StartupPath, "AI", "胡維基的AI3.0.exe"));
 
         }
 
@@ -285,7 +285,7 @@ namespace google
 
             URL.Text = "https://www.youtube.com";
 
-            Process.Start("C:\\Users\\Surface\\Desktop\\影片播放\\影片播放\\bin\\Debug\\影片播放.exe\"");
+            Process.Start(Path.Combine(Application.StartupPath, "Video", "影片播放.exe"));
 
 
 
