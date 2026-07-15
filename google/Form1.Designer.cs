@@ -70,10 +70,9 @@
             // 
             // txtSearch
             // 
-            txtSearch.Location = new Point(587, 187);
-            txtSearch.Margin = new Padding(5);
+            txtSearch.Location = new Point(374, 122);
             txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(71, 37);
+            txtSearch.Size = new Size(45, 24);
             txtSearch.TabIndex = 0;
             txtSearch.Text = "搜尋";
             txtSearch.UseVisualStyleBackColor = true;
@@ -81,30 +80,28 @@
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(128, 187);
-            btnSearch.Margin = new Padding(5);
+            btnSearch.Location = new Point(81, 122);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(463, 30);
+            btnSearch.Size = new Size(296, 23);
             btnSearch.TabIndex = 1;
             btnSearch.TextChanged += btnSearch_TextChanged;
             // 
             // lstResults
             // 
             lstResults.FormattingEnabled = true;
-            lstResults.Location = new Point(128, 216);
-            lstResults.Margin = new Padding(5);
+            lstResults.ItemHeight = 15;
+            lstResults.Location = new Point(81, 141);
             lstResults.Name = "lstResults";
-            lstResults.Size = new Size(463, 372);
+            lstResults.Size = new Size(296, 244);
             lstResults.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            label1.Location = new Point(272, 593);
-            label1.Margin = new Padding(5, 0, 5, 0);
+            label1.Location = new Point(173, 387);
             label1.Name = "label1";
-            label1.Size = new Size(143, 30);
+            label1.Size = new Size(95, 20);
             label1.TabIndex = 4;
             label1.Text = "搜尋紀錄(&H)";
             label1.Click += label1_Click;
@@ -114,10 +111,9 @@
             G.AutoSize = true;
             G.Font = new Font("Microsoft JhengHei UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 136);
             G.ForeColor = Color.Blue;
-            G.Location = new Point(203, 80);
-            G.Margin = new Padding(5, 0, 5, 0);
+            G.Location = new Point(129, 52);
             G.Name = "G";
-            G.Size = new Size(92, 91);
+            G.Size = new Size(62, 61);
             G.TabIndex = 5;
             G.Text = "G";
             G.Click += G_Click;
@@ -127,10 +123,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft JhengHei UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 136);
             label2.ForeColor = Color.Red;
-            label2.Location = new Point(272, 80);
-            label2.Margin = new Padding(5, 0, 5, 0);
+            label2.Location = new Point(173, 52);
             label2.Name = "label2";
-            label2.Size = new Size(84, 91);
+            label2.Size = new Size(57, 61);
             label2.TabIndex = 6;
             label2.Text = "o";
             // 
@@ -139,10 +134,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft JhengHei UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 136);
             label3.ForeColor = Color.Yellow;
-            label3.Location = new Point(332, 80);
-            label3.Margin = new Padding(5, 0, 5, 0);
+            label3.Location = new Point(211, 52);
             label3.Name = "label3";
-            label3.Size = new Size(84, 91);
+            label3.Size = new Size(57, 61);
             label3.TabIndex = 7;
             label3.Text = "o";
             // 
@@ -151,10 +145,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft JhengHei UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 136);
             label4.ForeColor = Color.Blue;
-            label4.Location = new Point(398, 80);
-            label4.Margin = new Padding(5, 0, 5, 0);
+            label4.Location = new Point(253, 52);
             label4.Name = "label4";
-            label4.Size = new Size(85, 91);
+            label4.Size = new Size(57, 61);
             label4.TabIndex = 8;
             label4.Text = "g";
             // 
@@ -163,10 +156,9 @@
             label5.AutoSize = true;
             label5.Font = new Font("Microsoft JhengHei UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 136);
             label5.ForeColor = Color.FromArgb(0, 192, 0);
-            label5.Location = new Point(453, 80);
-            label5.Margin = new Padding(5, 0, 5, 0);
+            label5.Location = new Point(288, 52);
             label5.Name = "label5";
-            label5.Size = new Size(58, 91);
+            label5.Size = new Size(39, 61);
             label5.TabIndex = 9;
             label5.Text = "l";
             // 
@@ -175,10 +167,9 @@
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft JhengHei UI", 36F, FontStyle.Regular, GraphicsUnit.Point, 136);
             label6.ForeColor = Color.Red;
-            label6.Location = new Point(497, 80);
-            label6.Margin = new Padding(5, 0, 5, 0);
+            label6.Location = new Point(316, 52);
             label6.Name = "label6";
-            label6.Size = new Size(80, 91);
+            label6.Size = new Size(54, 61);
             label6.TabIndex = 10;
             label6.Text = "e";
             // 
@@ -186,44 +177,45 @@
             // 
             menuStrip1.Anchor = AnchorStyles.Left;
             menuStrip1.Dock = DockStyle.None;
-            menuStrip1.Font = new Font("Microsoft JhengHei", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            menuStrip1.Font = new Font("微軟正黑體", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(24, 24);
             menuStrip1.Items.AddRange(new ToolStripItem[] { 圖片ToolStripMenuItem, 地圖ToolStripMenuItem, 新聞ToolStripMenuItem, 翻譯ToolStripMenuItem, gmailToolStripMenuItem, 更多ToolStripMenuItem, 紀錄ToolStripMenuItem, 登入ToolStripMenuItem, geminiToolStripMenuItem });
-            menuStrip1.Location = new Point(-1, 30);
+            menuStrip1.Location = new Point(-1, 20);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(703, 31);
+            menuStrip1.Padding = new Padding(4, 1, 0, 1);
+            menuStrip1.Size = new Size(483, 24);
             menuStrip1.TabIndex = 11;
             menuStrip1.Text = "menuStrip1";
             // 
             // 圖片ToolStripMenuItem
             // 
             圖片ToolStripMenuItem.Name = "圖片ToolStripMenuItem";
-            圖片ToolStripMenuItem.Size = new Size(62, 27);
+            圖片ToolStripMenuItem.Size = new Size(43, 22);
             圖片ToolStripMenuItem.Text = "圖片";
             圖片ToolStripMenuItem.Click += 圖片ToolStripMenuItem_Click;
             // 
             // 地圖ToolStripMenuItem
             // 
             地圖ToolStripMenuItem.Name = "地圖ToolStripMenuItem";
-            地圖ToolStripMenuItem.Size = new Size(62, 27);
+            地圖ToolStripMenuItem.Size = new Size(43, 22);
             地圖ToolStripMenuItem.Text = "地圖";
             // 
             // 新聞ToolStripMenuItem
             // 
             新聞ToolStripMenuItem.Name = "新聞ToolStripMenuItem";
-            新聞ToolStripMenuItem.Size = new Size(62, 27);
+            新聞ToolStripMenuItem.Size = new Size(43, 22);
             新聞ToolStripMenuItem.Text = "新聞";
             // 
             // 翻譯ToolStripMenuItem
             // 
             翻譯ToolStripMenuItem.Name = "翻譯ToolStripMenuItem";
-            翻譯ToolStripMenuItem.Size = new Size(62, 27);
+            翻譯ToolStripMenuItem.Size = new Size(43, 22);
             翻譯ToolStripMenuItem.Text = "翻譯";
             // 
             // gmailToolStripMenuItem
             // 
             gmailToolStripMenuItem.Name = "gmailToolStripMenuItem";
-            gmailToolStripMenuItem.Size = new Size(76, 27);
+            gmailToolStripMenuItem.Size = new Size(52, 22);
             gmailToolStripMenuItem.Text = "Gmail";
             gmailToolStripMenuItem.Click += gmailToolStripMenuItem_Click;
             // 
@@ -231,19 +223,19 @@
             // 
             更多ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 硬碟ToolStripMenuItem, youtubeToolStripMenuItem });
             更多ToolStripMenuItem.Name = "更多ToolStripMenuItem";
-            更多ToolStripMenuItem.Size = new Size(62, 27);
+            更多ToolStripMenuItem.Size = new Size(43, 22);
             更多ToolStripMenuItem.Text = "更多";
             // 
             // 硬碟ToolStripMenuItem
             // 
             硬碟ToolStripMenuItem.Name = "硬碟ToolStripMenuItem";
-            硬碟ToolStripMenuItem.Size = new Size(180, 34);
+            硬碟ToolStripMenuItem.Size = new Size(121, 22);
             硬碟ToolStripMenuItem.Text = "硬碟";
             // 
             // youtubeToolStripMenuItem
             // 
             youtubeToolStripMenuItem.Name = "youtubeToolStripMenuItem";
-            youtubeToolStripMenuItem.Size = new Size(180, 34);
+            youtubeToolStripMenuItem.Size = new Size(121, 22);
             youtubeToolStripMenuItem.Text = "youtube";
             youtubeToolStripMenuItem.Click += youtubeToolStripMenuItem_Click;
             // 
@@ -251,42 +243,43 @@
             // 
             紀錄ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 搜尋紀錄ToolStripMenuItem, 紀錄HToolStripMenuItem });
             紀錄ToolStripMenuItem.Name = "紀錄ToolStripMenuItem";
-            紀錄ToolStripMenuItem.Size = new Size(88, 27);
+            紀錄ToolStripMenuItem.Size = new Size(60, 22);
             紀錄ToolStripMenuItem.Text = "紀錄(&H)";
             紀錄ToolStripMenuItem.Click += 紀錄ToolStripMenuItem_Click;
             // 
             // 搜尋紀錄ToolStripMenuItem
             // 
             搜尋紀錄ToolStripMenuItem.Name = "搜尋紀錄ToolStripMenuItem";
-            搜尋紀錄ToolStripMenuItem.Size = new Size(182, 34);
+            搜尋紀錄ToolStripMenuItem.Size = new Size(122, 22);
             搜尋紀錄ToolStripMenuItem.Text = "搜尋紀錄";
             // 
             // 紀錄HToolStripMenuItem
             // 
             紀錄HToolStripMenuItem.Name = "紀錄HToolStripMenuItem";
-            紀錄HToolStripMenuItem.Size = new Size(182, 34);
+            紀錄HToolStripMenuItem.Size = new Size(122, 22);
             紀錄HToolStripMenuItem.Text = "紀錄(&H)";
             // 
             // 登入ToolStripMenuItem
             // 
             登入ToolStripMenuItem.Name = "登入ToolStripMenuItem";
-            登入ToolStripMenuItem.Size = new Size(62, 27);
+            登入ToolStripMenuItem.Size = new Size(43, 22);
             登入ToolStripMenuItem.Text = "登入";
             登入ToolStripMenuItem.Click += 登入ToolStripMenuItem_Click;
             // 
             // geminiToolStripMenuItem
             // 
             geminiToolStripMenuItem.Name = "geminiToolStripMenuItem";
-            geminiToolStripMenuItem.Size = new Size(159, 27);
+            geminiToolStripMenuItem.Size = new Size(107, 22);
             geminiToolStripMenuItem.Text = "Gemini(胡微基))";
             geminiToolStripMenuItem.Click += geminiToolStripMenuItem_Click;
             // 
             // URL
             // 
-            URL.Location = new Point(163, 70);
+            URL.Location = new Point(104, 46);
+            URL.Margin = new Padding(2, 2, 2, 2);
             URL.Multiline = true;
             URL.Name = "URL";
-            URL.Size = new Size(1015, 39);
+            URL.Size = new Size(647, 27);
             URL.TabIndex = 12;
             URL.Text = "www.盜版google.com";
             URL.TextChanged += URL_TextChanged;
@@ -294,18 +287,20 @@
             // 
             // button1
             // 
-            button1.Location = new Point(82, 70);
+            button1.Location = new Point(52, 46);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(33, 34);
+            button1.Size = new Size(21, 22);
             button1.TabIndex = 13;
             button1.Text = "→";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(43, 70);
+            button2.Location = new Point(27, 46);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(33, 34);
+            button2.Size = new Size(21, 22);
             button2.TabIndex = 14;
             button2.Text = "←";
             button2.UseVisualStyleBackColor = true;
@@ -315,27 +310,28 @@
             panel1.Controls.Add(label7);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(add);
-            panel1.Location = new Point(0, 4);
+            panel1.Location = new Point(0, 3);
+            panel1.Margin = new Padding(2, 2, 2, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1120, 60);
+            panel1.Size = new Size(713, 39);
             panel1.TabIndex = 15;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 136);
-            label7.Location = new Point(43, 17);
-            label7.Margin = new Padding(5, 0, 5, 0);
+            label7.Location = new Point(27, 11);
             label7.Name = "label7";
-            label7.Size = new Size(85, 30);
+            label7.Size = new Size(57, 20);
             label7.TabIndex = 15;
             label7.Text = "新分頁";
             // 
             // button4
             // 
-            button4.Location = new Point(203, 20);
+            button4.Location = new Point(129, 13);
+            button4.Margin = new Padding(2, 2, 2, 2);
             button4.Name = "button4";
-            button4.Size = new Size(24, 29);
+            button4.Size = new Size(15, 19);
             button4.TabIndex = 18;
             button4.Text = "❌";
             button4.UseVisualStyleBackColor = true;
@@ -343,9 +339,10 @@
             // add
             // 
             add.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            add.Location = new Point(259, 8);
+            add.Location = new Point(165, 5);
+            add.Margin = new Padding(2, 2, 2, 2);
             add.Name = "add";
-            add.Size = new Size(55, 48);
+            add.Size = new Size(35, 31);
             add.TabIndex = 17;
             add.Text = "➕";
             add.UseVisualStyleBackColor = true;
@@ -365,9 +362,10 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(label3);
             panel2.Dock = DockStyle.Bottom;
-            panel2.Location = new Point(0, 110);
+            panel2.Location = new Point(0, 72);
+            panel2.Margin = new Padding(2, 2, 2, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1301, 580);
+            panel2.Size = new Size(828, 378);
             panel2.TabIndex = 16;
             panel2.Visible = false;
             // 
@@ -377,9 +375,10 @@
             webViewChrome.CreationProperties = null;
             webViewChrome.DefaultBackgroundColor = Color.White;
             webViewChrome.Dock = DockStyle.Bottom;
-            webViewChrome.Location = new Point(0, -470);
+            webViewChrome.Location = new Point(0, -306);
+            webViewChrome.Margin = new Padding(2, 2, 2, 2);
             webViewChrome.Name = "webViewChrome";
-            webViewChrome.Size = new Size(1301, 580);
+            webViewChrome.Size = new Size(828, 378);
             webViewChrome.TabIndex = 12;
             webViewChrome.ZoomFactor = 1D;
             webViewChrome.Click += webViewChrome_Click;
@@ -387,9 +386,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(11F, 23F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1301, 690);
+            ClientSize = new Size(828, 450);
             Controls.Add(webViewChrome);
             Controls.Add(URL);
             Controls.Add(button2);
@@ -398,7 +397,6 @@
             Controls.Add(panel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
-            Margin = new Padding(5);
             Name = "Form1";
             Text = "盜版Google Chrome";
             MaximumSizeChanged += Form1_MaximumSizeChanged;
