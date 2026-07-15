@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "version": "GPT-4",
+      "release_date": "2023-03-14",
+      "description": "強大的對話式 AI，能夠進行自然對話、撰寫文章、程式碼協助等。",
+      "capabilities": [ "自然對話", "文章撰寫", "程式碼生成", "翻譯", "創意寫作" ],
+      "languages": [ "英文", "中文", "西班牙文", "法文", "德文", "日文" ],
+      "greeting": "Hello! How can I assist you today?"
+    },
+    {
+      "id": 2,
+      "name": "Gemini",
+      "developer": "Google",
+      "version": "Gemini 1.5",
+      "release_date": "2023-12-06",
+      "description": "Google 開發的多模態 AI，支援文字、圖片、影片等多種輸入。",
+      "capabilities": [ "多模態理解", "推理", "程式碼", "創意協作", "長文本處理" ],
+      "languages": [ "英文", "中文", "日文", "韓文", "西班牙文", "阿拉伯文" ],
+      "greeting": "Hi there! I'm Gemini, ready to help you explore ideas and get things done."
+    },
+    {
+      "id": 3,
+      "name": "Claude",
+      "developer": "Anthropic",
+      "version": "Claude 3 Opus",
+      "release_date": "2024-03-04",
+      "description": "注重安全性與倫理的對話 AI，擅長細膩的分析與長篇對話。",
+      "capabilities": [ "深度分析", "長篇對話", "文件總結", "倫理考量", "多語言" ],
+      "languages": [ "英文", "中文", "法文", "西班牙文", "日文" ],
+      "greeting": "Hello, I'm Claude. I'm here to help with thoughtful and thorough responses."
+    },
+  {
+    "id": 4,
+    "name": "DeepSeek Chat",
+    "version": "1.0.0",
+    "developer": "深度求索公司",
+    "release_date": "2025-01-01",
+    "description": "一個友善、高效的多語言聊天助手，能夠回答問題、提供建議和進行自然對話。",
+    "capabilities": [
+      "一般對話",
+      "知識問答",
+      "創意寫作",
+      "程式碼協助"
+    ],
+    "languages": [ "中文", "英文", "日文", "法文", "德文" ],
+    "greeting": "你好！我是 DeepSeek Chat，有什麼可以幫你的嗎？"
+  },
+  {
+    "id": 5,
+    "name": "Hu Wikipedia's AI",
+    "version": "4.0",
+    "developer": "胡邵翔",
+    "release_date": "2024-07-28",
+    "description": "一個友聊天人工智慧，只要開頭用水藍色顯示字體便可聯網。它可以和你隨心所欲地聊天，且可判斷情緒",
+    "capabilities": [
+      "一般對話",
+      "時間、日期",
+      "笑話、計算"
+    ],
+    "languages": [ "中文", "英文" ],
+    "greeting": "你好！我是簡單的AI助手 胡維基 的AI: 今天有什么可以幫到你？"
+  }
+]

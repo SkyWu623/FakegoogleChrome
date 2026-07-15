@@ -431,7 +431,7 @@ namespace google
 
         private void add_Click(object sender, EventArgs e)
         {
-            Process.Start("\"C:\\Users\\Surface\\Desktop\\google\\google\\bin\\Debug\\net8.0-windows\\google.exe\"");
+            Process.Start(Environment.ProcessPath);
         }
 
         private void Form1_MaximumSizeChanged(object sender, EventArgs e)
