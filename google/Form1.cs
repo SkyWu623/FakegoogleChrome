@@ -250,9 +250,7 @@ namespace google
 
         private void gmailToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-
-
+            MessageBox.Show("沒有郵件");
         }
 
 
