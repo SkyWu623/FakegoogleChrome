@@ -37,4 +37,8 @@
     <Folder Include="bin\Debug\net8.0-windows\" />
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="call &quot;$(ProjectDir)copy.bat&quot;" />
+  </Target>
+
 </Project>
