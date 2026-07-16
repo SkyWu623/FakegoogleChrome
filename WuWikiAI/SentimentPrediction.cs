@@ -1,4 +1,4 @@
-namespace 胡維基的AI3._0
+namespace HuWikiAI
 {
 	public class SentimentPrediction
 	{
