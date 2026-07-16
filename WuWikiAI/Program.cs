@@ -136,9 +136,9 @@ namespace 胡維基的AI3._0
 					}
 					else if (taxt.Contains("謝謝") || taxt.Contains("thank"))
 					{
-						aitalk = "不客气！很高興能幫助到你";
+						aitalk = "不客！很高興能幫助到你";
 					}
-					else if (taxt.Contains("再见") || taxt.Contains("bye"))
+					else if (taxt.Contains("再见") || taxt.Contains("再見") || taxt.Contains("bye"))
 					{
 						aitalk = "再见！祝你今天愉快！";
 					}
