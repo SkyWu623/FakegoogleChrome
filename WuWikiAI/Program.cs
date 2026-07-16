@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace 胡維基的AI3._0
+namespace HuWikiAI
 {
 	internal class Program
 	{
